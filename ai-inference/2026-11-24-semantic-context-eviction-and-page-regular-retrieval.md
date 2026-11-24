@@ -256,7 +256,7 @@ Treat this as a model–systems direction worth following, not as a replacement 
 
 ## Secondary signal: edge–cloud speculative scheduling
 
-[CGSpec](https://arxiv.org/abs/2611.28028) adapts speculative length from draft–target distribution divergence and schedules shared verification using estimated remaining work and heterogeneous client return times. Across reported 8- and 16-client configurations, it improves mean system throughput by roughly 10–12% and mean client throughput by 14–33% over compared methods.
+[CGSpec](https://arxiv.org/abs/2611.29255) adapts speculative length from draft–target distribution divergence and schedules shared verification using estimated remaining work and heterogeneous client return times. Across reported 8- and 16-client configurations, it improves mean system throughput by roughly 10–12% and mean client throughput by 14–33% over compared methods.
 
 The result reinforces a known deployment principle: speculative budgets and verifier scheduling must account for network and client heterogeneity. It is useful for edge–cloud systems but less important for CPU datacenter inference than the three items above, and its improvements are moderate.
 
